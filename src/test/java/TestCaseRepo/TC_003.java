@@ -9,7 +9,7 @@ import objectReposetory.Homepage;
 import objectReposetory.LeadsPage;
 
 public class TC_003 extends BaseClass{
-	@Test(groups= {""})
+	@Test(groups= {"smoke"})
 	public void leads_003() throws Exception {
 		System.out.println("test case execution started ");
 		 Homepage hp=new Homepage(driver);

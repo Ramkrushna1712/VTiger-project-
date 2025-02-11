@@ -9,7 +9,7 @@ import objectReposetory.CreatingNewContactPage;
 import objectReposetory.Homepage;
 
 public class TC_006 extends BaseClass {
-	@Test(groups= {""})
+	@Test(groups= {"somke","regratation"})
 	public void contacts_001() throws Exception {
 		System.out.println("test execution started");
 		 Homepage hp=new Homepage(driver);
